@@ -15,10 +15,10 @@ Gem::Specification.new do |gem|
 
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = ">= 2.5"
+  gem.required_ruby_version = ">= 2.4"
 
   gem.add_runtime_dependency "omniauth", "~> 1.1"
-  gem.add_runtime_dependency "omniauth-oauth2", "~> 1.6"
+  gem.add_runtime_dependency "omniauth-oauth2", ">= 1.3"
 
   gem.add_development_dependency "rubocop", "~> 0.55"
 end
